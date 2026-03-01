@@ -134,7 +134,15 @@ const data = [
     },
   },
 ];
-
+const {
+  reviews: {
+    goodreads: {
+      rating: testRating,
+      ratingsCount: testRatingsCount,
+      reviewsCount: testReviewsCount,
+    },
+  },
+} = data[0];
 function getBooks() {
   return data;
 }
